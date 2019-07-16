@@ -12,7 +12,7 @@ class TelemetryService {
         
         this.appInsights = new ApplicationInsights({
             config: {
-                instrumentationKey: INSTRUMENTATION_KEY,
+                instrumentationKey: "7f69dff1-70c8-42d2-baca-f1f412c47017",
                 maxBatchInterval: 0,
                 disableFetchTracking: false,
                 extensions: [this.reactPlugin],
